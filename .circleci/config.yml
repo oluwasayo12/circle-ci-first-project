@@ -24,7 +24,7 @@ jobs:
       - checkout
       - run:
           name: "print Variable"
-          command: echo $MY_NAME
+          command: "echo $MY_NAME"
 
 workflows:
   say-hello-workflow:
